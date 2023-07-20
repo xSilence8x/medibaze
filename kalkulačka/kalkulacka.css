@@ -1,0 +1,36 @@
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sekce {
+	border: 2px solid rgb(121, 186, 243);
+	display: flex;
+	flex: 48%;
+	justify-content: center;
+	margin: 5px;
+	border-radius: 40px;
+}
+
+.sekce > .img {
+	margin: auto 10px;
+    width: 30%;
+}
+
+.popis {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	text-align: center;
+	padding: 10px;
+	width: 70%;
+}
+
+.popis h2 {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.popis p {
+	padding-top: 0;
+}

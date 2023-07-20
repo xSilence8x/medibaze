@@ -1,0 +1,53 @@
+.obsah {
+    padding-bottom: 50px;
+    height: auto;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+    padding: 0;
+}
+
+.sekce {
+	display: flex;
+    flex-wrap: wrap;
+    flex: 45%;
+    align-content: center;
+	margin: 15px;
+	border-radius: 40px;
+    box-shadow: 3px 3px 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.sekce:hover {
+    background: #a3e2e2;
+    transform: scale(1.1);
+}
+
+.popis {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	padding: 10px;
+    width: 100%;
+}
+
+.popis h2 {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.popis p {
+	padding-top: 0;
+    width: 100%;
+}
+
+.sekce img {
+    width: 20%;
+    margin: auto 0;
+}

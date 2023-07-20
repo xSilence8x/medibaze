@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #90d1ee91, rgb(53 112 202 / 67%), #1e97987d 83%);
+    background: linear-gradient(90deg, #1e97987d, rgb(53 112 202 / 67%), #1e97987d 90%);
     height: 300px;
     margin: 0;
 }
@@ -29,12 +29,17 @@ header h1 {
     text-shadow: 0 3px 10px rgba(0,0,0,0.7);
 }
 
+header img {
+    height: 100px;
+}
+
 .obsah {
     width: 70%;
     border-radius: 40px 40px 0 0;
     background: linear-gradient(0deg, lightgrey, white);
     height: 82%;
-    margin: -70px auto;
+    margin: -50px auto;
+    box-shadow: 3px 3px 10px;
 }
 
 .obsah p {
@@ -98,18 +103,25 @@ nav {
 
 nav li {
     list-style-type: none;
-    border-radius: 10px;
     padding: 10px 0;
 }
 
 nav ul {
     margin: 10px;
     padding: 0;
+    display: flex;
 }
 
-nav ul:hover {
-    background: rgb(79, 131, 215);
+.active, .active:active {
+    background: linear-gradient(0deg, #90d1ee91, #1e97987d 83%);
     border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+nav li:hover:not(.active) {
+    background: rgba(79, 131, 215, 0.47);
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
 }
 
 nav a {
@@ -124,7 +136,7 @@ nav a:hover {
 
 .vyhledavac {
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
 }
 
 form {
@@ -158,49 +170,6 @@ form {
 
 
 
-
-/***************************************/
-/*                MARWEN               */
-/***************************************/  
-
-.team {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.zena {
-	border: 2px solid rgb(121, 186, 243);
-	display: flex;
-	flex: 20%;
-	justify-content: center;
-	margin: 5px;
-	border-radius: 40px;
-}
-
-.img {
-	border-radius: 50%;
-	margin: auto 10px;
-	background-size: cover;
-    width: 200px;
-}
-
-.popis {
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: center;
-	text-align: center;
-	padding: 10px;
-}
-
-.popis h2 {
-    margin: 20px auto;
-    width: 100%;
-}
-
-.popis p {
-    width: 100%;
-    padding-top: 0;
-}
 
 
 

@@ -1,0 +1,38 @@
+.team {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.zena {
+	border: 2px solid rgb(121, 186, 243);
+	display: flex;
+	flex: 20%;
+	justify-content: center;
+	margin: 5px;
+	border-radius: 40px;
+}
+
+.img {
+	border-radius: 50%;
+	margin: auto 10px;
+	background-size: cover;
+    width: 200px;
+}
+
+.popis {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	text-align: center;
+	padding: 10px;
+}
+
+.popis h2 {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.popis p {
+    width: 100%;
+    padding-top: 0;
+}
